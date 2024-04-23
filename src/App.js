@@ -4,6 +4,7 @@ const App = () => {
   return (
     <>
     <About/>
+    <Services/>
     </>
   );
 }
