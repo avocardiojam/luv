@@ -1,10 +1,15 @@
 .box {
     display: flex;
-}
-.box1 {
-    display: flex;
+    justify-content: space-between;
     align-items: center;
+    border-bottom: 1px black solid;
+    min-height: 110px;
 }
-.box2 {
-    width: 10%;
+.description {
+    width: 30%;
+}
+.boxinfo {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
 }
