@@ -1,4 +1,5 @@
 import About from './components/About'
+import Services from './components/Services';
 
 const App = () => {
   return (

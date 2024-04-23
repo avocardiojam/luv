@@ -1,4 +1,4 @@
-export const EventItemData = [
+export const ServiceItemData = [
     {
         title: "Corporate Law",
         number: "01",

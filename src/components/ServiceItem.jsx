@@ -4,11 +4,11 @@ const ServiceItem = ({ title, number, description}) => {
     return (
         <div className={styles.serviceitem}>
             <div className={styles.box}>
-                <div classname={styles.boxitem1}>
-                    <p className={styles.title}>{title}</p>
-                    <p classname={styles.number}>{number}</p>
+                <div classname={styles.box1}>
+                    <div><p className={styles.title}>{title}</p></div>
+                    <div><p classname={styles.number}>{number}</p></div>
                 </div>
-                <div classname={styles.boxitem2}>
+                <div classname={styles.box2}>
                     <p className={styles.description}>{description}</p>
                 </div>
             </div>  
