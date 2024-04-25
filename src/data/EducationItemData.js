@@ -5,7 +5,7 @@ export const EducationItemData = [
         degree: "Bachelor"
     },
     {
-        title: "National Research University Higher School of Economics, Russia",
+        title: "Higher School of Economics, Russia",
         year: "September 2020 - May 2022",
         degree: "Master"
     },

@@ -8,6 +8,9 @@
 .description {
     width: 30%;
 }
+.number {
+    color: rgba(64, 123, 255, 1);
+}
 .boxinfo {
     width: 50%;
     display: flex;

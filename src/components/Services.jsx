@@ -4,7 +4,7 @@ import ServiceItem from './ServiceItem';
 
 const Services = () => {
     return (
-        <section className={styles.about}>
+        <section className={styles.services}>
             <div className={styles.container}>
                 <div classname={styles.content}>
                     <p className={styles.main}>/ SERVICES</p>

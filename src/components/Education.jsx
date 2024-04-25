@@ -4,7 +4,7 @@ import EducationItem from './EducationItem';
 
 const Education = () => {
     return (
-        <section className={styles.about}>
+        <section className={styles.education}>
             <div className={styles.container}>
                 <div classname={styles.content}>
                     <p className={styles.main}>/ EDUCATION</p>
