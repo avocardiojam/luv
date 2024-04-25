@@ -1,0 +1,28 @@
+.container {
+    width: 85%;
+    margin: auto;
+}
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.title {
+    color: rgba(64, 123, 255, 1);
+}
+.description {
+    display: flex;
+    justify-content: center
+}
