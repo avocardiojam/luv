@@ -11,14 +11,24 @@
 .title {
     color: rgba(64, 123, 255, 1);
     font-family: "Poppins", sans-serif;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 .year {
     font-family: "Poppins", sans-serif;
+    color: rgba(150, 150, 150, 1)
 }
 .degree {
     border: 1px rgb(0, 0, 0) solid;
     border-radius: 18px;
     padding: 5px 10px;
     font-family: "Poppins", sans-serif;
+}
+@media (max-width: 450px) {
+    .title {
+        font-size: 15px;
+    }
+    .year {
+        font-size: 15px;
+    }
 }

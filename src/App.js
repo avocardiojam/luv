@@ -3,6 +3,7 @@ import About from './components/About'
 import Services from './components/Services';
 import Publications from './components/Publications';
 import Education from './components/Education';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
     <Services/>
     <Publications/>
     <Education/>
+    <Footer/>
     </>
   );
 }

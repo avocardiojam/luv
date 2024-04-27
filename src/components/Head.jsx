@@ -21,7 +21,7 @@ const Head = () => {
                             </ul>
                         </div>
                         <div className={styles.titlediv}>
-                            <p className={styles.title}>ANNA GORBACHOVA</p>
+                            <p className={styles.title}>ANNA <br/>GORBACHOVA</p>
                         </div>
                     </div>
                     <div className={styles.descriptiondiv}>

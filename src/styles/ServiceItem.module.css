@@ -27,3 +27,32 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media (max-width: 1200px) {
+    .title {
+        font-size: 20px;
+    }
+    .box {
+        padding: 20px 0;
+    }
+}
+@media (max-width: 700px) {
+    .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 130px;
+        padding: 20px 0;
+    }
+    .boxinfo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .description {
+        width: 100%;
+        font-family: "Poppins", sans-serif;
+        font-size: 15px;
+    }
+}
