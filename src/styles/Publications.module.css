@@ -1,0 +1,16 @@
+.publications {
+    margin-bottom: 70px;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+.main{
+    color: rgba(64, 123, 255, 1);
+    margin-bottom: 70px;
+}
+.items {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px;
+}

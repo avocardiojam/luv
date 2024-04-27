@@ -5,9 +5,9 @@ const PublicationItem = ({ title, description}) => {
         <div className={styles.publicationitem}>
             <div className={styles.box}>
                 <div>
-                    <p>{title}</p>
+                    <p className={styles.title}>{title}</p>
                 </div>
-                <div>
+                <div className={styles.boxitem2}>
                     <p>{description}</p>
                     <img src="./image/arrow.svg" alt="" />
                 </div>

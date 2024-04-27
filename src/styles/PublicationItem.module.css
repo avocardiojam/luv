@@ -1,0 +1,20 @@
+
+.publicationitem {
+    border: 1px black solid;
+    border-radius: 15px;
+    padding: 30px 30px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 300px;
+}
+.boxitem2 {
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+}
+.title {
+    margin: 0;
+}
