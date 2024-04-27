@@ -1,5 +1,5 @@
 .about {
-    margin-bottom: 70px;
+    margin-bottom: 110px;
 }
 .container {
     width: 85%;
@@ -11,7 +11,18 @@
 }
 .title {
     color: rgba(64, 123, 255, 1);
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
 }
 .description {
     width: 65%;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 50px;
+    color: rgba(150, 150, 150, 1);
+}
+span {
+    color: black;
 }

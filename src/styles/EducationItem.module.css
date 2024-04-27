@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px black solid;
+    border-bottom: 1px rgba(217, 217, 217, 1) solid;
     min-height: 110px;
 }
 .boxinfo {
@@ -10,9 +10,15 @@
 }
 .title {
     color: rgba(64, 123, 255, 1);
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 15px;
+}
+.year {
+    font-family: "Poppins", sans-serif;
 }
 .degree {
-    border: 1px black solid;
+    border: 1px rgb(0, 0, 0) solid;
     border-radius: 18px;
     padding: 5px 10px;
+    font-family: "Poppins", sans-serif;
 }

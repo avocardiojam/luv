@@ -4,7 +4,7 @@ import PublicationItem from './PublicationItem';
 
 const Publications = () => {
     return (
-        <section className={styles.publications}>
+        <section className={styles.publications} id='3'>
             <div className={styles.container}>
                 <div classname={styles.content}>
                     <p className={styles.main}>/ PUBLICATIONS</p>

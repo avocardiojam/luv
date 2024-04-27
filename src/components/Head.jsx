@@ -8,7 +8,7 @@ const Head = () => {
                 <div className={styles.items}>
                     <div className={styles.first}>
                         <img src="./image/first.svg" alt="" />
-                        <p>2024</p>
+                        <p className={styles.firstitem}>2024</p>
                     </div>
                     <div className={styles.main}>
                         <div className={styles.menu}>
@@ -20,12 +20,12 @@ const Head = () => {
                                 ))}
                             </ul>
                         </div>
-                        <div className={styles.title}>
-                            <p>KRISTINA SRETINSKAIA</p>
+                        <div className={styles.titlediv}>
+                            <p className={styles.title}>ANNA GORBACHOVA</p>
                         </div>
                     </div>
-                    <div className={styles.description}>
-                        <div><p>/ INDEPENDENT ARBITRATOR WITH A PARTICULAR FOCUS ON COMMERCIAL, CONSTRUCTION AND CORPORATE DISPUTES /</p></div>
+                    <div className={styles.descriptiondiv}>
+                        <p className={styles.description}>/ INDEPENDENT ARBITRATOR WITH A PARTICULAR FOCUS ON COMMERCIAL, CONSTRUCTION AND CORPORATE DISPUTES /</p>
                     </div>
                 </div>
             </div>

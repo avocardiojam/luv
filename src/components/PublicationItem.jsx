@@ -8,8 +8,8 @@ const PublicationItem = ({ title, description}) => {
                     <p className={styles.title}>{title}</p>
                 </div>
                 <div className={styles.boxitem2}>
-                    <p>{description}</p>
-                    <img src="./image/arrow.svg" alt="" />
+                    <p className={styles.description}>{description}</p>
+                    <img src="./image/arrow45.svg" alt="" />
                 </div>
             </div>  
         </div>
